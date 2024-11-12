@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8EDD31532CE34086009DACA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31522CE34086009DACA9 /* main.m */; };
+		8EDD31562CE34164009DACA9 /* Photographer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31552CE34164009DACA9 /* Photographer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		8E83C8CC2CE22DE800D950C2 /* Seminars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Seminars; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDD31522CE34086009DACA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EDD31542CE34164009DACA9 /* Photographer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photographer.h; sourceTree = "<group>"; };
+		8EDD31552CE34164009DACA9 /* Photographer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photographer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -67,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				8EDD31522CE34086009DACA9 /* main.m */,
+				8EDD31542CE34164009DACA9 /* Photographer.h */,
+				8EDD31552CE34164009DACA9 /* Photographer.m */,
 			);
 			path = SeminarTwo;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDD31532CE34086009DACA9 /* main.m in Sources */,
+				8EDD31562CE34164009DACA9 /* Photographer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
