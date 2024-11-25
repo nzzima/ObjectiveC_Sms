@@ -6,10 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
+//#import "Peaple.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
+@class Peaple;
 @interface MacBook : NSObject
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic) NSInteger storage;
+@property (nonatomic, strong) Peaple *peaple;
 
 @end
 

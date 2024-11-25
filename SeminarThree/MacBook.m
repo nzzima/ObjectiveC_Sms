@@ -9,4 +9,8 @@
 
 @implementation MacBook
 
+-(void)dealloc {
+    NSLog(@"Object MacBook is deleted");
+}
+
 @end

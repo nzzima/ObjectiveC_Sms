@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EBAAA082CF4A2C8003A453E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAAA072CF4A2C8003A453E /* main.m */; };
+		8EBAAA0C2CF4A305003A453E /* MacBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAAA0B2CF4A305003A453E /* MacBook.m */; };
+		8EBAAA0F2CF4A66C003A453E /* Peaple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAAA0E2CF4A66C003A453E /* Peaple.m */; };
+		8EBAAA132CF4AA6C003A453E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAAA122CF4AA6C003A453E /* main.m */; };
+		8EBAAA162CF4AA7C003A453E /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAAA152CF4AA7C003A453E /* Teacher.m */; };
+		8EBAAA192CF4AA8E003A453E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAAA182CF4AA8E003A453E /* Student.m */; };
 		8EDD31532CE34086009DACA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31522CE34086009DACA9 /* main.m */; };
 		8EDD31562CE34164009DACA9 /* Photographer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31552CE34164009DACA9 /* Photographer.m */; };
 		8EDD31592CE36F37009DACA9 /* Trainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31582CE36F37009DACA9 /* Trainer.m */; };
@@ -26,6 +32,17 @@
 
 /* Begin PBXFileReference section */
 		8E83C8CC2CE22DE800D950C2 /* Seminars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Seminars; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBAAA072CF4A2C8003A453E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EBAAA0A2CF4A305003A453E /* MacBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacBook.h; sourceTree = "<group>"; };
+		8EBAAA0B2CF4A305003A453E /* MacBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacBook.m; sourceTree = "<group>"; };
+		8EBAAA0D2CF4A66C003A453E /* Peaple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Peaple.h; sourceTree = "<group>"; };
+		8EBAAA0E2CF4A66C003A453E /* Peaple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Peaple.m; sourceTree = "<group>"; };
+		8EBAAA122CF4AA6C003A453E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EBAAA142CF4AA7C003A453E /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		8EBAAA152CF4AA7C003A453E /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		8EBAAA172CF4AA8E003A453E /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		8EBAAA182CF4AA8E003A453E /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		8EBAAA1B2CF4AB10003A453E /* TeacherDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeacherDelegate.h; sourceTree = "<group>"; };
 		8EDD31522CE34086009DACA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EDD31542CE34164009DACA9 /* Photographer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photographer.h; sourceTree = "<group>"; };
 		8EDD31552CE34164009DACA9 /* Photographer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photographer.m; sourceTree = "<group>"; };
@@ -55,6 +72,8 @@
 		8E83C8C32CE22DE800D950C2 = {
 			isa = PBXGroup;
 			children = (
+				8EBAAA102CF4AA4C003A453E /* SeminarThree2 */,
+				8EBAAA062CF4A27C003A453E /* SeminarThree */,
 				8EDD31512CE34070009DACA9 /* SeminarTwo */,
 				8E83C8CE2CE22DE800D950C2 /* SeminarOne */,
 				8E83C8CD2CE22DE800D950C2 /* Products */,
@@ -67,6 +86,31 @@
 				8E83C8CC2CE22DE800D950C2 /* Seminars */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBAAA062CF4A27C003A453E /* SeminarThree */ = {
+			isa = PBXGroup;
+			children = (
+				8EBAAA072CF4A2C8003A453E /* main.m */,
+				8EBAAA0A2CF4A305003A453E /* MacBook.h */,
+				8EBAAA0B2CF4A305003A453E /* MacBook.m */,
+				8EBAAA0D2CF4A66C003A453E /* Peaple.h */,
+				8EBAAA0E2CF4A66C003A453E /* Peaple.m */,
+			);
+			path = SeminarThree;
+			sourceTree = "<group>";
+		};
+		8EBAAA102CF4AA4C003A453E /* SeminarThree2 */ = {
+			isa = PBXGroup;
+			children = (
+				8EBAAA122CF4AA6C003A453E /* main.m */,
+				8EBAAA142CF4AA7C003A453E /* Teacher.h */,
+				8EBAAA152CF4AA7C003A453E /* Teacher.m */,
+				8EBAAA172CF4AA8E003A453E /* Student.h */,
+				8EBAAA182CF4AA8E003A453E /* Student.m */,
+				8EBAAA1B2CF4AB10003A453E /* TeacherDelegate.h */,
+			);
+			path = SeminarThree2;
 			sourceTree = "<group>";
 		};
 		8EDD31512CE34070009DACA9 /* SeminarTwo */ = {
@@ -144,8 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBAAA082CF4A2C8003A453E /* main.m in Sources */,
 				8EDD31532CE34086009DACA9 /* main.m in Sources */,
 				8EDD31592CE36F37009DACA9 /* Trainer.m in Sources */,
+				8EBAAA0F2CF4A66C003A453E /* Peaple.m in Sources */,
+				8EBAAA0C2CF4A305003A453E /* MacBook.m in Sources */,
+				8EBAAA162CF4AA7C003A453E /* Teacher.m in Sources */,
+				8EBAAA192CF4AA8E003A453E /* Student.m in Sources */,
+				8EBAAA132CF4AA6C003A453E /* main.m in Sources */,
 				8EDD31562CE34164009DACA9 /* Photographer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

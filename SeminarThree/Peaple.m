@@ -9,4 +9,8 @@
 
 @implementation Peaple
 
+-(void)dealloc {
+    NSLog(@"Object Peaple is deleted");
+}
+
 @end
