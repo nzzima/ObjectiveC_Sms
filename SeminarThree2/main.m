@@ -9,12 +9,12 @@
 #import "Teacher.h"
 #import "Student.h"
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        Teacher *teacher = [Teacher new];
-        Student *student = [Student new];
-        teacher.delegate = student;
-        [teacher prepareHomework];
-    }
-    return 0;
-}
+//int main(int argc, const char * argv[]) {
+//    @autoreleasepool {
+//        Teacher *teacher = [Teacher new];
+//        Student *student = [Student new];
+//        teacher.delegate = student;
+//        [teacher prepareHomework];
+//    }
+//    return 0;
+//}
